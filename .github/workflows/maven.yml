@@ -19,4 +19,4 @@ jobs:
         distribution: 'adopt'
         cache: gradle
     - name: Build with Gradle
-      run: unit [test]
+      run: gradle test
